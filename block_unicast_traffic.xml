@@ -1,0 +1,5 @@
+<filter name='block-unicast-traffic' chain='ipv4'>
+  <rule action='drop' direction='inout'>
+      <ip protocol='udp' srcmacaddr='$SENDER_MAC' />
+  </rule>
+</filter>

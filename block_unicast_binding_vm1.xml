@@ -1,0 +1,11 @@
+<filterbinding>
+  <owner>
+    <name>vm1</name>
+    <uuid>80d59483-aec0-4d9f-b5f0-55f39ad1871e</uuid>
+  </owner>
+  <portdev name='vnet0'/>
+  <mac address='52:54:00:5c:ed:71'/>
+  <filterref filter='block-unicast-traffic'>
+    <parameter name='SENDER_MAC' value='52:54:00:48:46:2d'/>
+  </filterref>
+</filterbinding>
